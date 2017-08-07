@@ -10,7 +10,7 @@ def pep8(ctx):
 
 @task
 def lint(ctx):
-  ctx.run("pylint all_page_login all_page_login_test -r n")
+  ctx.run("pylint all_page_login -r n")
 
 
 @task

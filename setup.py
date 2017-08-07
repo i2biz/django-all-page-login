@@ -47,7 +47,7 @@ if __name__ == "__main__":
     name='all_page_login',
     version='0.1.0',
     packages=packages,
-    license='All Rights reserved',
+    license='MIT',
     author='Jacek Bzdak',
     author_email='jacek@askesis.pl',
     description='All Page Login ',
