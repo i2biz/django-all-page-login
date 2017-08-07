@@ -51,7 +51,7 @@ if __name__ == "__main__":
     author='Jacek Bzdak',
     author_email='jacek@askesis.pl',
     description='All Page Login ',
-    install_requires=[str(req.req) for req in get_requirements()],
+    install_requires=['django'],
     package_data={
       package: [] +
         read_dir(package, "static") +
